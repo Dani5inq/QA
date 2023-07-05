@@ -1,0 +1,88 @@
+body {
+  /*font-family: "Caveat", cursive;*/
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 50px auto 0;
+  max-width: 620px;
+}
+
+p {
+  margin: 1.25rem;
+  color: rgb(15, 15, 15);
+}
+
+.question {
+  background-color: rgb(255, 207, 145);
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-title p {
+  font-weight: bolder;
+  color: rgb(0, 48, 110);
+}
+
+.question-btn {
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgb(0, 48, 110);
+  border: none;
+}
+
+.question-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 1px solid black;
+  display: none;
+}
+
+.minus-icon {
+  display: none;
+}
+
+.show-text .question-text {
+  display: block;
+}
+
+.show-text .minus-icon {
+  display: inline;
+}
+
+.show-text .plus-icon {
+  display: none;
+}
+
+.footer {
+  margin-bottom: 0;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#hat {
+  color: red;
+}
